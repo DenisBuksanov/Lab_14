@@ -36,6 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   downloadBtn.addEventListener('click', (e) => {
     e.stopPropagation(); 
-    window.print();
+    window.print(); 
   });
 });
